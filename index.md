@@ -4,5 +4,5 @@
 
 #### More soon
 
-<div markdown = "0" > Beautiful div, isn't it?</div>
+<div markdown = "0" style="background-color:black;color:white;"> Beautiful div, isn't it?</div>
 <a markdown = "0" href="http://www.DCORsoft.gq"> DCORsoft.gq </a>
