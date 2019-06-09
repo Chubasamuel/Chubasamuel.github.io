@@ -4,5 +4,8 @@
 
 #### More soon
 
-<div markdown = "0" style="background-color:black;color:white;"> Beautiful div, isn't it?</div>
+<center markdown= "0" ><a style="font-weight:bold;font-size:30px"  href="https://Chubasamuel.github.io/DCORcalc">DCORcalc</a><br /> A versatile scientific calculator written in HTML,CSS and Javascript </center>
+<img markdown= "0" src="DCORcalc/DCORcalc.jpg" width="250" height="450" />
+
+
 <a markdown = "0" href="http://www.DCORsoft.gq"> DCORsoft.gq </a>
