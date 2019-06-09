@@ -1,0 +1,162 @@
+<! DOCTYPE html>
+<html>
+<head> 
+<title> DCORcalc</title> <link rel="stylesheet"  type="text/css" href="FsS.css"> 
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div   style="width:380px; height:720px; border-radius:50px; border:10px solid black; position:relative; background-color:#333366;"> 
+<div style="position:absolute;
+width: 0;
+height: 0;
+border-top: 12.5px solid transparent;
+border-right: 25px solid red;
+border-bottom: 12.5px solid transparent;"></div>
+
+<div style="position:absolute; top:174px; left:20px; color:orange; font-weight:800px; font-size:10px;"> <small><small>SHIFT</small> </small></div>
+
+<div style="position:absolute; top:230px; left:18px; color:orange; font-weight:800px; font-size:10px;"> SOLVED</div>
+
+<div style="position:absolute; top:290px; left:90px; color:orange; font-weight:800px;"> <small><small><sup>3</sup></small></small>&radic;  </div>
+
+<div style="position:absolute; top:232px; left:283px; color:orange; font-weight:800px;"> <small>x!</small></div>
+
+<div style="position:absolute; top:290px; left:154px; color:orange; font-weight:800px;"> <small>x</small><small><small><sup>3</sup></small></small>  </div>
+
+<div style="position:absolute; top:290px; left:210px; color:orange; font-weight:800px;"> <small><small><sup>x</sup></small></small>&radic;  </div>
+
+<div style="position:absolute; top:290px; left:260px; color:orange; font-weight:800px;"> <small>10</small><small><small><sup>x</sup></small></small></div>
+
+<div style="position:absolute; top:290px; left:324px; color:orange; font-weight:800px;"> e<small><small><sup>x</sup></small></small> </div>
+
+<div style="position:absolute; top:350px; left:206px; color:orange; font-weight:800px;"> <small>sin</small><small><small><sup>-1</sup></small></small>  </div>
+
+<div style="position:absolute; top:350px; left:260px; color:orange; font-weight:800px;"> <small>cos</small><small><small><sup>-1</sup></small></small>  </div>
+
+<div style="position:absolute; top:350px; left:320px; color:orange; font-weight:800px;"> <small>tan</small><small><small><sup>-1</sup></small></small>  </div>
+
+<div style="position:absolute; top:540px; left:248px; color:orange; font-weight:800px;"> <small><small>n</small></small><small>P</small><small><small>r</small></small>  </div>
+
+<div style="position:absolute; top:540px; left:46px; color:orange; font-weight:800px;"> <small><small>&micro; </small></small>  </div>
+
+<div style="position:absolute; top:540px; left:115px; color:orange; font-weight:800px;"> <small><small>m</small></small></div>
+
+<div style="position:absolute; top:540px; left:184px; color:orange; font-weight:800px;"> <small><small>k</small></small></div>
+
+
+<div style="position:absolute; top:540px; left:316px; color:orange; font-weight:800px;"> <small><small>n</small></small><small>C</small><small><small>r</small></small>  </div>
+
+<div style="position:absolute; top:600px; left:48px; color:orange; font-weight:800px;"> <small><small>f</small></small></div>
+
+<div style="position:absolute; top:600px; left:115px; color:orange; font-weight:800px;"> <small><small>p</small></small></div>
+
+<div style="position:absolute; top:600px; left:184px; color:orange; font-weight:800px;"> <small><small>n</small></small></div>
+
+<div style="position:absolute; top:660px; left:248px; color:orange; font-weight:800px;"> <small><small>DRG</small></small></div>
+
+<div style="position:absolute; top:660px; left:188px; color:orange; font-weight:800px;"> <small>&pi;</small>  </div>
+
+<div style="position:absolute; top:660px; left:96px; color:orange; font-weight:800px;"> <small>Ran#</small>  </div>
+
+<div style="position:absolute; top:660px; left:42px; color:orange; font-weight:800px;"> <small>Rnd</small>  </div>
+
+<div id="lggdiv" style="width:360px; height:60px; border:8px solid green; border-radius:20px;"></div>
+
+<div id="ansdiv" style="width:360px; height:80px; border:8px solid green; border-radius:20px; background-color:white;"></div>
+
+<div style="position:absolute; left:10px; top:180px;">
+<span class="spanF1">
+ <button id="shift" onclick="makeShift()"> </button> 
+ <button id="z2" onclick= " showPrevEqn()">  </button> </span> </div> 
+
+<button style="width:120px; height:120px; border-radius:360px; border:5px solid blue; position:absolute; left:130px; font-weight:600; top: 171px;">  <small><small>REPLAY</small></small></button>  
+
+
+<div style="position:absolute; top:180px; left:264px;"> <span class="spanF1"> <button id="z3" onclick= "showNextEqn()">  </button>  <button id="EqnBtn" onclick="EqnBtnClk()" >  </button> </span> </div> </div> 
+<span class="spanF">
+<div style="position:absolute; top:260px; left:39px;"> <button id="y1z4" onClick="typeAns()"> <small><small><small>CALC</small></small></small></button> <button id="y2" onClick=> <small>&int;dx</small></button>  </div> 
+
+<div style="position:absolute; top:265px; left:268px;"> <button id="ndfind" onClick="typeDigit('V', 'V','!','!')"><small>x</small><sup><small>-l</small></sup></button> <button id="y3z5" onclick= >C</button> 
+</div>
+</span>
+<span class="spanF">
+<div style="position:absolute; top:320px; left:39px;"> 
+
+<button id='y4z6' onclick=><small>d/c </small></button> <button id='y5' onClick="typeDigit('X', 'X','F','F')">&radic; </button> <button id='y6' onClick="typeDigit('q', 'q', 'x','x')"><small>x</small>&sup2;</button> <button id='y7z7' onClick="typeDigit('^', '^','{','{')">^</button> <button id='y8z8' onClick="typeDigit('M', 'M','O','O')"><small>log</small></button> <button id='y9z9' onClick="typeDigit('l', 'l','N','N')">ln</button>
+
+</div>
+
+
+<div style="position:absolute; top:380; left:39px;"> 
+<button id='y10q1' onClick="typeDigit('-', '-','','')"><small>(-)</small></button> <button id='y11q2' onclick=>,,,,</button> <button id='y12q3' onclick=><small>hyp</small></button> <button id='y13z10q4' onClick="typeDigit('S', 'S','I','I')"><small>sin</small></button> <button id='y14z11q5' onClick="typeDigit('C','C',']',']')"> <small>cos </small></button> <button id='y15z12q6' onClick="typeDigit('t','t','T','T')"><small>tan</small></button> 
+</div>
+
+<div style="position:absolute; top:440px; left:39px;"> 
+
+
+<button id='y16STO' onClick=> <small>RCL</small></button> <button id='y17' onclick=> <small><small>ENG</small></small></button>
+<button id='y18' onClick="typeDigit('(', '(','','')">(</button> <button id='y19q7' onClick="typeDigit(')', ')','','')">)</button> <button id='y20q8' onClick="typeDigit(',', ',','','')">,</button> <button id='y2z14q9' onclick="mPlus()"><small>M+</small></button> 
+
+</div>
+</span>
+<div style="position:absolute; top:510px; left:39px;">  
+<span class="spanD1b">
+<button id='D7' onClick="typeDigit('7', '7','','')">7</button> 
+<button id='D8' onClick="typeDigit('8', '8','','')">8</button> 
+<button id='D9' onClick="typeDigit('9','9','','')">9 </button> </span>
+<span class="spanD1c"> <button id='Y23' onClick="DEL()"> DEL</button> <button id='AC' onClick="AC()">AC</button> </span>
+</div>
+<span class="spanD1">
+<div style="position:absolute; top:570px; left:39px;">   
+<button id='D4' onClick="typeDigit('4', '4','@','@')">4</button> 
+<button id='D5' onClick="typeDigit('5', '5','m','m')">5</button> 
+<button id='D6' onClick="typeDigit('6', '6','k','k')"> 6</button>
+<button id='Multiply' onClick="typeDigit('*','*','U','U')">&times;</button> <button id='Divide' onClick="typeDigit('D', '/', 'B','B')">&divide;  </button> 
+</div>
+
+<div style="position:absolute; top:630px; left:39px;"> 
+<button id='D1' onClick="typeDigit('1', '1','f','f')">1</button> 
+<button id='D2' onClick="typeDigit('2','2','p','p')">2</button> 
+<button id='D3' onClick="typeDigit('3','3','n','n')" >3</button> 
+<button id='Add' onClick="typeDigit('+', '+','','')">+</button> <button id='Minus' onClick="typeDigit('-', '-','','')">&mdash;</button> 
+</div>
+
+<div style="position:absolute; top:690px; left:39px;">  
+<button id="D0" onClick="typeDigit('0','0','','')"> 0</button>
+<button id="Dpoint" onClick="typeDigit('.', '.',':',':')"; > . </button>
+<button id="y25z17" onclick="typeDigit('E','E','y','y');"> EXP</button>
+
+<button id="y24z18" onClick="typeDigit('A','A','','')"> Ans </button>
+<button id="R4" onClick="typeAns()"> = </button>
+</span>
+
+</div> 
+
+
+
+<div id="ansdivS1"  style="width:355px; height:40px; border:1px solid green; border-radius:10px; background-color:white; position:absolute; top:139px; left:28px;"></div>
+
+<div id="ansdivS2"  style="width:355px; height:40px; border:1px solid green; border-radius:10px; background-color:white; position:absolute; top:100px; left:28px; text-align:right;"> </div>
+
+
+<input type="text" id="inp" style="display:none;" value="" />
+
+<input type="text" id="inp1" style="display:none;" value="" />
+<input type="text" id="test1" style="display:none;"  value="" />
+
+<script type="text/javascript" src="CoreFunc.js"> </script><script type="text/javascript" src="Fs.js"> </script> 
+
+</body>
+</html>
