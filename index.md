@@ -4,9 +4,13 @@
 
 
 
-<center markdown= "0" ><a style="font-weight:bold;font-size:30px"  href="https://Chubasamuel.github.io/DCORcalc">DCORcalc</a><br /> A versatile scientific calculator written in HTML,CSS and Javascript<br /> </center>
-<center markdown= "0" ><img  src="images/DCORcalc.jpg" width="150" height="250" /></center>
+<center markdown= "0" ><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORcalc">DCORcalc</a><br /> A versatile scientific calculator written in HTML,CSS and Javascript<br /> </center>
+<center markdown= "0" ><img  src="images/DCORcalc.jpg" width="150" height="250" />
+</center>
 
+<center markdown= "0" ><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORgrapher">DCORgrapher</a><br /> A robust graph plotting utility written in HTML,CSS and Javascript<br /> </center>
+<center markdown= "0" ><img  src="images/DCORgrapher.jpg" width="150" height="250" />
+</center>
 ### More soon
 
 
