@@ -9,7 +9,7 @@
 </center>
 
 <center markdown= "0" ><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORgrapher">DCORgrapher</a><br /> A robust graph plotting utility written in HTML,CSS and Javascript<br /> </center>
-<center markdown= "0" ><img  src="images/DCORgrapher.jpg" width="150" height="250" />
+<center markdown= "0" ><img  src="images/DCORgrapher.jpg" width="200" height="250" />
 </center>
 ### More soon
 
