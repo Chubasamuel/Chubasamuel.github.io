@@ -37,7 +37,7 @@ xhr.send();
 
 function writeCont(eiv){
 alert(eiv);
-var ev=JSON.stringify(eiv);
+var ev=JSON.parse(eiv);
 alert(ev);
 alert(ev.length);
 alert(typeof(ev));
