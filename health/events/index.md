@@ -29,7 +29,7 @@ font-size:0.6em;
 	
 	<script markdown="0">
 	var xhr= new XMLHttpRequest();              xhr.onreadystatechange=function(){          if(xhr.readyState==4){                              if(xhr.status=200){   
-try{alert(xhr.responseText);writeCont(xhr.responseText);} catch(e){alert(e);}
+try{alert(typeof(xhr.responseText));writeCont(xhr.responseText);} catch(e){alert(e);}
 	}                       }                                           }
 xhr.open("get","https://raw.githubusercontent.com/Chubasamuel/Chubasamuel.github.io/master/health/events/list.json",true);
 xhr.send();
