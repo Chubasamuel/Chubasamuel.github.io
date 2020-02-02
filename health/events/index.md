@@ -28,7 +28,7 @@ font-size:0.6em;
 <div id="content-main"></div>
 	
 	<script>
-		var ev=[{"topic":"topic one","content":"content one","dt":"91881-7"},{"topic":"topic teo","content":"content 2","dt":"dt 2"},{"topic":"topic 3","content":"content 3","dt":"00:33"},{"topic":"topic 4","content":"content kd","dt":"099-87"}];
+		var ev
 
 for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time\">"+ev[i]["dt"]+"</span></div></center>";}
 	</script>
