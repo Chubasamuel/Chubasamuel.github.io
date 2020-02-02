@@ -28,9 +28,16 @@ font-size:0.6em;
 <div id="content-main"></div>
 	
 	<script>
-		var ev
+	var xhr= new XMLHttpRequest();              xhr.onreadystatechange=function(){          if(xhr.readyState==4){                              if(xhr.status=200){   
+writeCont(xhr.responseText))
+	}                       }                                           }
+xhr.open("get","https://raw.githubusercontent.com/Chubasamuel/Chubasamuel.github.io/master/health/events/list.json",true);
+xhr.send();
 
-for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time\">"+ev[i]["dt"]+"</span></div></center>";}
+
+function writeCont(eiv){
+var ev=JSON.stringify(eiv);
+for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time\">"+ev[i]["dt"]+"</span></div></center>"; }}
 	</script>
 </body>
 
