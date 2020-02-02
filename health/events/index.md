@@ -38,7 +38,7 @@ xhr.send();
 function writeCont(eiv){
 alert(eiv);
 var ev=JSON.stringify(eiv);
-alert(ev)
+alert(eiv)
 for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time\">"+ev[i]["dt"]+"</span></div></center>"; }}
 	</script>
 </body>
