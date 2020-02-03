@@ -1,5 +1,5 @@
 
-<center markdown="0"><span style="color:green;font-size:2em;">  Events List</span> </center>
+<center markdown="0"><span style="color:green;font-size:2em;font-weight:bold">  Events List</span> <hr style="background-color:black;height:2px;"/><br /></center>
 <body markdown="0">
 
 <style markdown="0">
@@ -21,6 +21,7 @@ font-size:1.5em;
 }
 .mcontent .content_date-time{
 font-size:0.6em;
+color:blue;
 }
 
 </style>
