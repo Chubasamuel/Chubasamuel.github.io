@@ -1,8 +1,8 @@
 ---
-title: DCOR Health Repo
+title: DCOR Health
 description: Health stuffs come here!
 ---
-## Welcome to DCOR Health repo
+## Welcome to DCOR Health
 
 
 
