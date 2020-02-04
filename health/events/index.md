@@ -23,7 +23,10 @@ font-size:1.5em;
 font-size:0.6em;
 color:blue;
 }
-
+.heading_1{
+font-size:1.5em;
+font-weight:bold;
+}
 </style>
 		
 <div id="content-main" markdown="0"></div>
