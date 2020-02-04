@@ -1,3 +1,4 @@
+<head markdown="0"> <title markdown="0"> DCOR-cf </title></head>
 ## Welcome to DCOR Code Repository Page
 
 ### You can check  [my github.io repository](https://github.com/Chubasamuel/Chubasamuel.github.io) OR [my full repository](https://github.com/Chubasamuel) to see other works that may not be found here.
@@ -11,7 +12,8 @@
 <center markdown= "0" ><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORgrapher">DCORgrapher</a><br /> A robust graph plotting utility written in HTML,CSS and Javascript<br /> </center>
 <center markdown= "0" ><img  src="images/DCORgrapher.jpg" width="200" height="250" />
 </center>
-### More soon
+
+>>> More soon
 
 
 
