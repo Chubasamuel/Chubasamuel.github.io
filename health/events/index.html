@@ -1,22 +1,32 @@
-<!DOCTYPE html><html>
-<head> <title>Chuba Samuel, DCOR</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link rel="stylesheet" href="index.c
-		   ss"></head>                                                                             <body><div class="header"><h2> Health </h2></div>
-<center><span style="color:green;font-size:2em;font-weight:bold">  Events List</span> <hr style="background-color:black;height:2px;"/><br /></center>
-<body>
+<!DOCTYPE html>
+<html>
+<head> <title>DCOR|Health|Events</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" href="../../index.css" /></head>
+
+<body><div class="header">
+		<p>Health&nbsp;Events&nbsp;List</p></div>
+	<div class="mainDiv">
+	
+
+		<svg id="trekkingStar">
+  <polygon points="25,2.5 10,49.5 47.5,19.5 2.5,19.5 40,49.5"
+  style="fill:#006;stroke:white;stroke-width:1;fill-rule:evenodd;" />
+</svg><h3 id="Welcome"> Welcome to Health Events List </h3>
+<h4>You can check <a href="https://dcor.cf/health">the main health page</a> to see other details</h4>
+
+
 
 <style>
 
 .mcontent{ 
-	/*position:absolute;
-	left:0px;
-	right:0px;*/
 	width:90%;
 	margin:5px;
-	border:1px solid black;
+	border:1px solid #006;
 	border-radius:12px;
+	background-color:#747;
+
 }
 .mcontent span{ display:block;}
 .mcontent .content_topic{
@@ -25,8 +35,9 @@ color:;
 font-size:1.5em;
 }
 .mcontent .content_date-time{
-font-size:0.6em;
-color:blue;
+font-size:0.8em;
+color:white;
+font-weight:bold;
 }
 .heading_1{
 font-size:1.5em;
@@ -47,7 +58,22 @@ xhr.send();
 function writeCont(eiv){
 
 var ev=JSON.parse(eiv);
-for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time\">"+ev[i]["dt"]+"</span></div></center>"; }}
+for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time descr\">"+ev[i]["dt"]+"</span></div></center>"; }}
 	</script>
-</body>
+		</div>
 
+
+<footer id="footer"> </footer>
+<script>
+var dt=new Date();
+var yr= dt.getFullYear();
+
+document.getElementById("footer").innerHTML="<center><font style=\"color: #cccccf;font-family:serif;font-size:18px;\">Jeremiah Chuba Samuel &copy;"+yr+"</font></center>";
+</script>
+<script src="../../js/DCORfadeInfadeOut.js"></script> 
+	<script> var Welcome=document.getElementById("Welcome");
+		fadeInfadeOut(Welcome,20,0,"#fe24ff*#1e24ff*#fff");
+	</script>
+	</div>
+</body>
+</html>
