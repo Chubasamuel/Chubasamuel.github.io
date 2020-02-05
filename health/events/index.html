@@ -45,7 +45,7 @@ font-weight:bold;
 }
 </style>
 		
-<div id="content-main"></div>
+<div id="content-main">Loading events...</div>
 	
 	<script>
 	var xhr= new XMLHttpRequest();              xhr.onreadystatechange=function(){          if(xhr.readyState==4){                              if(xhr.status=200){   
@@ -56,7 +56,7 @@ xhr.send();
 
 
 function writeCont(eiv){
-
+document.getElementById("content-main").innerHTML="";
 var ev=JSON.parse(eiv);
 for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time descr\">"+ev[i]["dt"]+"</span></div></center>"; }}
 	</script>
