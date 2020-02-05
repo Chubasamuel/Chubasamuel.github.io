@@ -1,22 +1,29 @@
-<!DOCTYPE html><html>
+<!DOCTYPE html>
+<html>
 <head> <title>Chuba Samuel, DCOR</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" href="index.css" /></head>
 
-<body style="color:#ffd;background-color:#000">
-## Welcome to DCOR Code Repository Page
+<body><div class="header">
+		<p>Chuba&nbsp;Samuel,&nbsp;DCOR</p></div>
+	<div class="mainDiv">
+		<!--	<span id="trekkingStar"><center>*</center></span>-->
+	
 
-### You can check  [my github.io repository](https://github.com/Chubasamuel/Chubasamuel.github.io) OR [my full repository](https://github.com/Chubasamuel) to see other works that may not be found here.
+		<svg id="trekkingStar">
+  <polygon points="25,2.5 10,49.5 47.5,19.5 2.5,19.5 40,49.5"
+  style="fill:#006;stroke:white;stroke-width:1;fill-rule:evenodd;" />
+</svg><h3 id="Welcome"> Welcome to DCOR's Code Repository page. </h3>
+	<h4>You can check <a href="https://github.com/Chubasamuel">my full github repository</a> to see other works that may not be found here.</h4>
 
 
-<center><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORcalc">DCORcalc</a><br /> A versatile scientific calculator written in HTML,CSS and Javascript<br /> </center>
-<center><img  src="images/DCORcalc.jpg" width="150" height="250" />
+	<center><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORcalc">DCORcalc</a><br /><span class="descr"> A versatile scientific calculator written in HTML,CSS and Javascript</span><br /> </center>
+<center><img  class="marginTop-img" src="images/DCORcalc.jpg" width="150" height="250" />
 </center>
 
-<center><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORgrapher">DCORgrapher</a><br /> A robust graph plotting utility written in HTML,CSS and Javascript<br /> </center>
-<center><img  src="images/DCORgrapher.jpg" width="200" height="250" />
+<center><hr /><a style="font-weight:bold;font-size:30px"  href="https://github.com/Chubasamuel/DCORgrapher">DCORgrapher</a><br /> <span class="descr">A robust graph plotting utility written in HTML,CSS and Javascript</span><br /> </center>
+<center><img  class="marginTop-img" src="images/DCORgrapher.jpg" width="200" height="250" />
 </center>
 
 >>> More soon
@@ -32,5 +39,10 @@ var yr= dt.getFullYear();
 
 document.getElementById("footer").innerHTML="<center><font style=\"color: #cccccf;font-family:serif;font-size:18px;\">Jeremiah Chuba Samuel &copy;"+yr+"</font></center>";
 </script>
+<script src="js/DCORfadeInfadeOut.js"></script> 
+	<script> var Welcome=document.getElementById("Welcome");
+		fadeInfadeOut(Welcome,20,0,"#fe24ff*#1e24ff*#fff");
+	</script>
+	</div>
 </body>
 </html>

@@ -1,14 +1,13 @@
----
+<!DOCTYPE html><html>
+<head> <title>Chuba Samuel, DCOR</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="index.c
+		   ss"></head>                                                                             <body><div class="header"><h2> Health </h2></div>
+<center><span style="color:green;font-size:2em;font-weight:bold">  Events List</span> <hr style="background-color:black;height:2px;"/><br /></center>
+<body>
 
-title: Health
-description: Best Place to be
-label: Health
-
----
-<center markdown="0"><span style="color:green;font-size:2em;font-weight:bold">  Events List</span> <hr style="background-color:black;height:2px;"/><br /></center>
-<body markdown="0">
-
-<style markdown="0">
+<style>
 
 .mcontent{ 
 	/*position:absolute;
@@ -35,9 +34,9 @@ font-weight:bold;
 }
 </style>
 		
-<div id="content-main" markdown="0"></div>
+<div id="content-main"></div>
 	
-	<script markdown="0">
+	<script>
 	var xhr= new XMLHttpRequest();              xhr.onreadystatechange=function(){          if(xhr.readyState==4){                              if(xhr.status=200){   
 try{writeCont(xhr.responseText);} catch(e){alert(e);}
 	}   else{document.getElementById("content-main").innerHTML="Loading events...";}                    }                                           }
