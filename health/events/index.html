@@ -48,7 +48,8 @@ font-weight:bold;
 <div id="content-main" class="descr">Loading events...</div>
 	
 	<script>
-	var xhr= new XMLHttpRequest();              xhr.onreadystatechange=function(){          if(xhr.readyState==4){                              if(xhr.status=200){   
+	var xhr= new XMLHttpRequest();              xhr.onreadystatechange=function(){
+		if(xhr.readyState==4){                              if(xhr.status=200){   
 try{writeCont(xhr.responseText);
 
 } catch(e){
@@ -65,7 +66,10 @@ xhr.send();
 
 function writeCont(eiv){
 var ev=JSON.parse(eiv);
-for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time descr\">"+ev[i]["dt"]+"</span></div></center>"; }}
+for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time descr\">"+ev[i]["dt"]+"</span></div></center>"; }
+document.getElementById("content-main").className.replace(/\bdescr\b/g,"")
+
+}
 	</script>
 		</div>
 
