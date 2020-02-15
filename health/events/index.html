@@ -67,7 +67,7 @@ xhr.send();
 function writeCont(eiv){
 var ev=JSON.parse(eiv);
 for(i in ev){document.getElementById("content-main").innerHTML+="<center><div class=\"mcontent\"><span class=\"content_topic\">"+ev[i]["topic"]+"</span><span class=\"content_content\">"+ev[i]["content"]+"</span><span class=\"content_date-time descr\">"+ev[i]["dt"]+"</span></div></center>"; }
-document.getElementById("content-main").className.replace(/\bdescr\b/g,"")
+document.getElementById("content-main").classList.remove("descr");
 
 }
 	</script>
