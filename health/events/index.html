@@ -7,16 +7,10 @@
 
 <body><div class="header">
 		<p>Health&nbsp;Events&nbsp;List</p></div>
-	<div class="mainDiv">
 
+	<div id="mainDiv" class="mainDiv">	
 
-<script>
-	/*
-document.getElementById("mainDiv").style.display="block";
-alert("done");*/
-	</script>
-	
-
+	<div id="unsupported" style="color:red;font-weight:bold;background-color:black; height:20%;"> Please update your browser and also allow Javascript to view this page. </div>
 		<svg id="trekkingStar">
   <polygon points="25,2.5 10,49.5 47.5,19.5 2.5,19.5 40,49.5"
   style="fill:#006;stroke:white;stroke-width:1;fill-rule:evenodd;" />
@@ -81,7 +75,6 @@ document.getElementById("content-main").classList.remove("descr");
 
 }
 	</script>
-		</div>
 
 
 <footer id="footer"> </footer>
@@ -100,7 +93,15 @@ document.getElementById("footer").innerHTML="<center><font style=\"color: #ccccc
 	<script> var Welcome=document.getElementById("Welcome");
 		fadeInfadeOut(Welcome,20,0,"#fe24ff*#1e24ff*#fff");
 	</script>
-	<noscript style="color:red;font-weight:bold;background-color:black"> Please update your browser and also allow Javascript to view this page. </noscript>
+
+<script>
+	try{
+/*document.getElementById("mainDiv").style.display="block";*/
+document.getElementById("unsupported").style.display="none";}
+catch(e){
+	//alert(e);
+}
+	</script>
 
 </body>
 </html>
