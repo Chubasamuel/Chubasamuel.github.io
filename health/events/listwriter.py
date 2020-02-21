@@ -1,6 +1,6 @@
 import sys
 import ast
-import base64
+import json
 def err(a):
     print(a)
 def succ(a):
@@ -17,9 +17,9 @@ except (FileNotFoundError,OSError) as e:
         sys.exit();
 with open("list.json","r") as f:
     global recordRead
-    recordRead=f.read()
+    recordRead=json.load(f);
     global recData
-    recData=ast.literal_eval(recordRead);
+    recData=recordRead;
 #print(recordRead);
 
 list_det=["topic","content","dt"]
@@ -43,7 +43,8 @@ def getList():
         recData.append(det)
         print(recData)
         try:
-            open("list.json","w+").write(str(recData));
+            with open("list.json","w+") as f:
+                json.dump(recData,f)
             succ("Record Saved");
         except:
             err("Error while trying to update data storage file. May be some file permission issues! So check your settings");
