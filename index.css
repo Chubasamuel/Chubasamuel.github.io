@@ -1,11 +1,11 @@
-body{
-height:100%;
+html,body{;
+min-height:100%;
 margin:0;
 background-image:linear-gradient(to top,#006,#fff,#000,#000);
 background-repeat:no-repeat;
 }
 .mainDiv{
-height:100%;
+min-height:100%;
 margin:15px;
 }
 a{
