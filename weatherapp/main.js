@@ -62,6 +62,7 @@ alert("Data---->"+xhr.responseText);
 display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
 } catch(e){
 	//Handle error
+	alert("Error-Response-Headers----=>"+xhr.getAllResponseHeaders());
 	alert("Error:ResponseText---=>"+xhr.responseText);
 	alert("Error occured while parsing responseText--->"+e);
 }
