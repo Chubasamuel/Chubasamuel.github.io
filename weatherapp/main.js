@@ -58,6 +58,8 @@ xhr.onreadystatechange=function(){
 		if(xhr.readyState==4){                              if(xhr.status=200){   
 try{
 alert("Data---->"+xhr.responseText);
+
+	alert("Error-Response-Headers----=>"+xhr.getAllResponseHeaders());
 	var data= JSON.parse(xhr.responseText);
 display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
 } catch(e){
@@ -72,7 +74,8 @@ display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
 	}                    
 	}
 	}
-try{xhr.open("get",url,true);
+url2="http://api.openweathermap.org/data/2.5/weather?q=" + "lagos"+ "," + "lagos" + "&appid=" + apiKey;
+try{xhr.open("get",url2,true);
 xhr.send();
 }
 catch(e){alert("xhrErr--->"+e);}
