@@ -57,15 +57,10 @@ var xhr= new XMLHttpRequest();
 xhr.onreadystatechange=function(){
 		if(xhr.readyState==4){                              if(xhr.status=200){   
 try{
-alert("Data---->"+xhr.responseText);
-
-	alert("Error-Response-Headers----=>"+xhr.getAllResponseHeaders());
 	var data= JSON.parse(xhr.responseText);
 display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
 } catch(e){
 	//Handle error
-	alert("Error-Response-Headers----=>"+xhr.getAllResponseHeaders());
-	alert("Error:ResponseText---=>"+xhr.responseText);
 	alert("Error occured while parsing responseText--->"+e);
 }
 	}   else{
@@ -75,11 +70,8 @@ display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
 	}
 	}
 cors="https://cors-anywhere.herokuapp.com/";
-url2=cors+"http://api.openweathermap.org/data/2.5/weather?q=" + "lagos"+ "," + "lagos" + "&appid=" + apiKey;
-url3=cors+"http://dcorsoft.gq/ideabank/probs.json.php?token=dcorDcorYesyes**";
-try{xhr.open("get",url3,true);
-xhr.send();
-xhr.open("get",url2,true);
+try{
+xhr.open("get",cors+url,true);
 xhr.send();
 }
 catch(e){alert("xhrErr--->"+e);}
