@@ -75,7 +75,8 @@ display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
 	}
 	}
 url2="http://api.openweathermap.org/data/2.5/weather?q=" + "lagos"+ "," + "lagos" + "&appid=" + apiKey;
-try{xhr.open("get",url2,true);
+url3="http://dcorsoft.gq/ideabank/probs.json.php?token=dcorDcorYesyes**";
+try{xhr.open("get",url3,true);
 xhr.send();
 }
 catch(e){alert("xhrErr--->"+e);}
