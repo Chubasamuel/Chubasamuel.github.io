@@ -56,7 +56,9 @@ function find(){
 var xhr= new XMLHttpRequest();
 xhr.onreadystatechange=function(){
 		if(xhr.readyState==4){                              if(xhr.status=200){   
-try{var data= JSON.parse(xhr.responseText);
+try{
+alert("Data---->",xhr.responseText);
+	var data= JSON.parse(xhr.responseText);
 display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
 } catch(e){
 	//Handle error
