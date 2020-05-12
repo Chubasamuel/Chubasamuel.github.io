@@ -10,7 +10,6 @@ $('form').addEventListener("submit", e => {
  	e.preventDefault();
  });
 }
-
 function find(){
 
 	//My api key. Dont steal it.
@@ -26,7 +25,7 @@ function find(){
 	url = "http://api.openweathermap.org/data/2.5/weather?q=" + cityName.value + "," + state.value + "&appid=" + apiKey;
 	
 	//fetches the data
-	fetch(url).then(function(response){
+	/*fetch(url).then(function(response){
 	
 		//Converts it to an object
 		response.json().then(function(data){
@@ -52,9 +51,28 @@ function find(){
 			})
 			
 	//Alerts for errors like network error
-	.catch(function(err){alert('error' + err)})
-	}
+	.catch(function(err){alert('error' + err)})*/
 
+var xhr= new XMLHttpRequest();
+xhr.onreadystatechange=function(){
+		if(xhr.readyState==4){                              if(xhr.status=200){   
+try{var data= JSON.parse(xhr.responseText);
+display(data.main.temp,data.weather[0].description,data.sys.country,data.name);
+} catch(e){
+	//Handle error
+	alert("Error occured while parsing responseText--->"+e);
+}
+	}   else{
+		//handle error
+		alert("Error Occured");
+	}                    
+	}
+	}
+try{xhr.open("get",url,true);
+xhr.send();
+}
+catch(e){alert("xhrErr--->"+e);}
+	}
 function display(temp, weather, country, city, icon)
 	{
 	
