@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> <title>BetterToday | Chuba Samuel</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" href="../index.css" /></head>
+
+<body><div class="header">
+		<p>BetterToday</p></div>
+	<div class="mainDiv">
+		<!--	<span id="trekkingStar"><center>*</center></span>-->
+	
+
+		<svg id="trekkingStar">
+  <polygon points="25,2.5 10,49.5 47.5,19.5 2.5,19.5 40,49.5"
+  style="fill:#006;stroke:white;stroke-width:1;fill-rule:evenodd;" />
+</svg><h3 id="Welcome"> Welcome to BetterToday Home Page. </h3>
+
+<img src="index1.jpg" style="width:80%;height:90%"/>
+
+<footer id="footer"> </footer>
+<script>
+var dt=new Date();
+var yr= dt.getFullYear();
+
+document.getElementById("footer").innerHTML="<center><font style=\"color: #cccccf;font-family:serif;font-size:18px;\">Jeremiah Chuba Samuel &copy;"+yr+"</font></center>";
+</script>
+<script src="../js/DCORfadeInfadeOut.js"></script> 
+	<script> var Welcome=document.getElementById("Welcome");
+		fadeInfadeOut(Welcome,20,0,"#fe24ff*#1e24ff*#fff");
+	</script>
+	</div>
+</body>
+</html>
+
