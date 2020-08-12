@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head> <title>BetterToday | Chuba Samuel</title>
+<head> <title>BetterToday |CMDA Nigeria | Chuba Samuel</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 	<link rel="stylesheet" href="../index.css" /></head>
@@ -16,14 +16,88 @@
   style="fill:#006;stroke:white;stroke-width:1;fill-rule:evenodd;" />
 </svg><h3 id="Welcome"> Welcome to BetterToday Home Page. </h3>
 <center>
-<img src="index1.jpg" style="width:80%;height:90%"/>
+<a href="http://play.google.com/store/apps/details?id=com.chubasamuel.bettertoday" id="bettertoday_download_playstore">Click Here To Download And Rate It On Google Play Store</a>
 </center>
+<center><img class="bettertoday_im" src="index7.jpg" style="width:95%;height:50%;border-radius:15px;"/></center>
+<!--
+<center><img class="bettertoday_img" src="index5.jpg" style="width:20%;height:35%;border-radius:25px;"/>
+<img class="bettertoday_img" src="index1.jpg" style="width:20%;height:35%;border-radius:25px;"/>
+<img class="bettertoday_img" src="index2.jpg" style="width:20%;height:35%;border-radius:25px;"/>
+</center>
+<center>
+<img class="bettertoday_img" src="index6.jpg" style="width:20%;height:35%;border-radius:25px;"/>
+<img class="bettertoday_img" src="index3.jpg" style="width:20%;height:35%;border-radius:25px;"/>
+<img class="bettertoday_img" src="index4.jpg" style="width:20%;height:35%;border-radius:25px;"/>
+</center>-->
+<center>
+<div id="bettertoday_faq_faqheading"> Frequently Asked Questions</div>
+</center>
+<div id="bettertoday_faq">
+<span class="bettertoday_faq_ques">How is the circular progress bar on the home screen evaluated? 
+-</span> <span class="bettertoday_faq_ans">
+The circular progress bar is evaluated by taking the average of the three horizontal progress bars on the home screen, representing the daily, weekly, and monthly evaluations.
+</span>
+<span class="bettertoday_faq_ques">
+How are the horizontal progress bars on the home screen evaluated? -</span>
+<span class="bettertoday_faq_ans"> Each horizontal progress bar is an average of evaluation of the academic, devotion, and personal goals completion evaluation for the specified timeframe.
+</span><span class="bettertoday_faq_ques">
+How is the progress evaluated for each of the academic, devotion and personal goals completion? - </span>
+<span class="bettertoday_faq_ans">Evaluation for each is calculated by taking the percentage of duration of completed goals divided by total duration of goals for the specified time frame.
+</span><span class="bettertoday_faq_ques">
+How are the data points gotten for the study graph? - </span>
+<span class="bettertoday_faq_ans">data points for the study graph are gotten from daily academic goals marked as done.
+</span><span class="bettertoday_faq_ques">
+Why are some parts of the graph marked in red color? - </span>
+<span class="bettertoday_faq_ans">Based on CMDA-S National Academic Board specifications, reading more than 8 hours or less than 2 hours in a day should be marked in red color.
+</span><span class="bettertoday_faq_ques">
+I made a mistake, How can I delete the data? - </span>
+<span class="bettertoday_faq_ans">You can delete any data from the All Saved Data UI when you long click on it.
+</span><span class="bettertoday_faq_ques">
+I no longer want some of the versions , how can I clear the memory they are occupying? -</span>
+ <span class="bettertoday_faq_ans">Backup your data, uninstall then resinstall and restore your data. Then load to memory only the bible versions you want. KJV version as a default must always be loaded to memory for the bible to work with no errors.
+</span><span class="bettertoday_faq_ques">
+The bible scrolling is too slow, how can i make it faster? - </span>
+<span class="bettertoday_faq_ans"> To make the bible work faster, allow it to be loaded to memory.
+</span><span class="bettertoday_faq_ques">
+Can I exit the event clock and do other things with my device? - </span><span class="bettertoday_faq_ans">Yes, the event clock keeps running, even after you have exit the app. You can only stop it explicitly by opening the app and click the stop button or if your device system kills the app due to power maintenance. Events abruptly stopped by the system will not be saved.
+</span><span class="bettertoday_faq_ques">
+Why does data backup or data restore keep failing? -</span>
+<span class="bettertoday_faq_ans"> we can't always know with full certainty what goes wrong. Ensure you have selected the correct google account and have a good stable internet connection.
+</span><span class="bettertoday_faq_ques">
+I mistakenly erased my data , how do I get it back? - </span>
+<span class="bettertoday_faq_ans">
+We do not store or keep any backup of your data on our own servers, so we may be of little or no help to you. If you had previously back up your data to Google Drive , then you can (a) uninstall the app. (b) reinstall the app (c) Click "yes restore" from the dialog that shows up at first launch. 
+</span><span class="bettertoday_faq_ques">
+Why does the alarm not come on even though I have unfinished goals? -</span>
+<span class="bettertoday_faq_ans"> The alarm should come on every day, as long as you have unfinished "daily" goals. 
+When it is time for the alarm, and there is no any unfinished daily goals, the alarm will determine whether it is appropriate to ring for the weekly goals; if the criteria to ring for the weekly goals is not met, it will check the criteria to ring for the monthly goals, if none is met, the alarm returns and does not ring.
+</span><span id="bettertoday_faq_alarmcriteria">
+<h3>Criteria - for daily goals alarm - </h3>
+<p>(1) There is one or more unfinished daily goals
+</p><p>(*) The alarm comes on every day if there is any unfinished daily goals for the day.
+</p>
+<h3>Criteria - for weekly goals alarm - </h3>
+<p>(1) There is no unfinished daily goal
+</p><p>(2) The current day of week(between 1-7) is directly divisible by 2 without remainder. 
+</p><p>(*) This ensures the weekly goals alarm only rings weekly if necessary ,three times only.
+</p>
+<h3>Criteria - for monthly goals alarm -</h3>
+<p>(1) There is no unfinished daily goal
+</p><p>(2) The current day of month is directly divisible by 7 without remainder. 
+</p><p>(*) This ensures the monthly goals alarm only rings monthly if necessary ,four times only.
+</p>
+<p id="bettertoday_faq_after_criteria">You will see alarm or notification normally for all of the daily, weekly, and monthly goals if any of the criteria is met.
+</p>
+<span class="bettertoday_faq_ques">I noticed a mistake in the app; or there is a nice feature I would like us to incorporate into the app - </span><span class="bettertoday_faq_ans">
+Feel free to contact us through the email on the feedback section of the app, We would be willing and glad to hear from you.</span>
+</span>
+</div>
 <footer id="footer"> </footer>
 <script>
 var dt=new Date();
 var yr= dt.getFullYear();
 
-document.getElementById("footer").innerHTML="<center><font style=\"color: #cccccf;font-family:serif;font-size:18px;\">Jeremiah Chuba Samuel &copy;"+yr+"</font></center>";
+document.getElementById("footer").innerHTML="<center><span style=\"color: #cccccf;font-family:sans-serif;font-size:18px;margin-top:20px;display:block;\">Jeremiah Chuba Samuel &copy;"+yr+"</span></center>";
 </script>
 <script src="../js/DCORfadeInfadeOut.js"></script> 
 	<script> var Welcome=document.getElementById("Welcome");

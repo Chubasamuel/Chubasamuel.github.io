@@ -4,6 +4,7 @@ margin:0;
 background-image:linear-gradient(to top,#006,#fff,#000,#000);
 background-repeat:no-repeat;
 }
+
 .mainDiv{
 min-height:100%;
 margin:15px;
@@ -14,7 +15,8 @@ a{
 	font-family:sans-serif;
 }
 *{color:white;
-box-sizing:border-box;}
+box-sizing:border-box;
+font-family:sans-serif;}
 .header{ 
 	background-image:linear-gradient(to left, #FE24FF, #006);
 	margin:0;
@@ -88,4 +90,59 @@ height:50px;
                 from {
                                 transform: rotate(0deg);
                 }
-                to {                                                                                    transform: rotate(360deg);                      }                                                       }
+                to {transform: rotate(360deg);     } }
+
+#bettertoday_faq_faqheading{
+color:#5218a2;
+font-weight:bold;
+font-size:3em;
+margin:15px;
+font-family:sans-serif;
+}
+#bettertoday_faq{
+	background-image:linear-gradient(to top,#333,#000,#310661);
+	/*padding-bottom:25px;
+	padding-top:25px;
+*/
+padding:40px;
+border-radius:30px;	
+}
+#bettertoday_faq .bettertoday_faq_ques{
+	display:block;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:5px;
+	font-size:2em;
+	font-family:sans-serif;
+	font-weight:bold;
+	color:#00897b;
+}
+#bettertoday_faq .bettertoday_faq_ans{
+	display:block;
+	margin-left:45px;
+	margin-right:45px;
+	margin-bottom:30px;
+	font-size:1.4em;
+	font-family:monospace;
+}
+#bettertoday_faq span{
+	font-family:monospace;
+	font-size:1.2em;
+}
+#bettertoday_faq_alarmcriteria h3{
+	font-size:1.3em;
+	color:#5218a2;
+}
+#bettertoday_download_playstore{
+	margin: 20px;
+	display:block;
+	font-family:sans-serif;
+	font-size:1.5em;
+}
+.bettertoday_img{
+	margin:66px;
+}
+
+
+
+
