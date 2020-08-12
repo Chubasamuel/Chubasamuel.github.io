@@ -104,13 +104,13 @@ font-family:sans-serif;
 	/*padding-bottom:25px;
 	padding-top:25px;
 */
-padding:40px;
+padding:10px;
 border-radius:30px;	
 }
 #bettertoday_faq .bettertoday_faq_ques{
 	display:block;
-	margin-left:20px;
-	margin-right:20px;
+	margin-left:5px;
+	margin-right:5px;
 	margin-bottom:5px;
 	font-size:2em;
 	font-family:sans-serif;
@@ -119,8 +119,8 @@ border-radius:30px;
 }
 #bettertoday_faq .bettertoday_faq_ans{
 	display:block;
-	margin-left:45px;
-	margin-right:45px;
+	margin-left:15px;
+	margin-right:15px;
 	margin-bottom:30px;
 	font-size:1.4em;
 	font-family:monospace;
