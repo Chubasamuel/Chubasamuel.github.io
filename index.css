@@ -125,6 +125,14 @@ border-radius:30px;
 	font-size:1.4em;
 	font-family:monospace;
 }
+.bettertoday_faq_ans_dup{
+	display:block;
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:30px;
+	font-size:1.4em;
+	font-family:sans-serif;
+}
 #bettertoday_faq span{
 	font-family:monospace;
 	font-size:1.2em;
