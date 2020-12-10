@@ -1,0 +1,11 @@
+{
+"update_app_version_code":24,
+"update_app_version_name":"3.0",
+"update_type":"Major",
+"update_title":"Testing Update API",
+"update_info":"Testing this API for now..  wait....",
+"update_view_type":"alert",
+"update_enforcing":false,
+"update_enforcing_minversion":24,
+"update_severity":"Necessary"
+}
