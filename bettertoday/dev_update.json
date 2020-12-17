@@ -1,9 +1,10 @@
 {
-"dev_info_title":"Testing DEV Update API",
+"dev_info_title":"Happy Celebrations!",
 "dev_info_version":1,
-"dev_start_date":"15-12-2020",
-"dev_end_date":"03-03-2021",
-"dev_remind_freq":1,
-"dev_inform_once":false,
-"dev_info":"DCOR IS Testing this API till next major release"
+"dev_start_date":"25-12-2020",
+"dev_end_date":"10-01-2021",
+"dev_remind_freq":30,
+"dev_inform_once":true,
+"dev_info":"May this season bring great blessings to you and your family. Continue to bask and wax strong in God\'s love.\nWe love and cherish you!\n\n\t-BetterToday Dev Team",
+"dev_btn_okay_text":"Thanks!"
 }
