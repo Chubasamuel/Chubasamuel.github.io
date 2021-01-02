@@ -1,11 +1,11 @@
 {
-"update_app_version_code":26,
-"update_app_version_name":"2.4",
+"update_app_version_code":28,
+"update_app_version_name":"2.6",
 "update_type":"Major",
-"update_title":"BetterToday v2.4 now available",
+"update_title":"BetterToday v2.6 now available",
 "update_info":"What is new?\n\n-Improved UX.\nCustom Evaluation date range.\n-Reinforced EventClock Integrity.\n-Typing with suggestions.\n-App update reminder.\n-Bible Search scrolls to selected verse\n-Minor bug fixes",
 "update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":26,
+"update_enforcing_minversion":28,
 "update_severity":"Necessary"
 }
