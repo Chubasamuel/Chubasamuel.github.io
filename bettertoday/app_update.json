@@ -1,11 +1,11 @@
 {
-"update_app_version_code":28,
-"update_app_version_name":"2.6",
+"update_app_version_code":29,
+"update_app_version_name":"2.7",
 "update_type":"Major",
-"update_title":"BetterToday v2.6 now available",
-"update_info":"What is new?\n\n-Improved UX.\nCustom Evaluation date range.\n-Reinforced EventClock Integrity.\n-Typing with suggestions.\n-App update reminder.\n-Bible Search scrolls to selected verse\n-Minor bug fixes",
-"update_view_type":"alert",
+"update_title":"BetterToday v2.7 now available",
+"update_info":"What is new?\n\n- Fixed studygraph not saving in Android versions>10(Q)\n\n- Bible Navigation History\n\n- Minor bug fixes",
+"update_view_type":"snackbar",
 "update_enforcing":false,
-"update_enforcing_minversion":28,
+"update_enforcing_minversion":29,
 "update_severity":"Necessary"
 }
