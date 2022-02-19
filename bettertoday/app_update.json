@@ -1,11 +1,11 @@
 {
-"update_app_version_code":29,
-"update_app_version_name":"2.7",
+"update_app_version_code":35,
+"update_app_version_name":"3.2",
 "update_type":"Major",
-"update_title":"BetterToday v2.7 now available",
-"update_info":"What is new?\n\n- Fixed studygraph not saving in Android versions>10(Q)\n\n- Bible Navigation History\n\n- Minor bug fixes",
-"update_view_type":"snackbar",
+"update_title":"BetterToday v3.2 is available",
+"update_info":"What is new?\n\n- User interface and user experience improvements for the Bible.\n\n- New bible version added - Amplified Bible",
+"update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":29,
+"update_enforcing_minversion":35,
 "update_severity":"Necessary"
 }
