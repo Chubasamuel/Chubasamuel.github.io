@@ -7,6 +7,7 @@
 		"fully_qualified_name":"",
 		"file_size_kb":0,
 		"md5":"",
+		"sha1":"",
 		"file_description":""
 	},
 "files":[
@@ -16,6 +17,7 @@
 		"fully_qualified_name":"Amplified Bible",
 		"file_size_kb":1656,
 		"md5":"df8e10369b8cbfaeaf6b3ea699009801",
+		"sha1":"515561c35df57713099517f2b7c9aa1a3fbe18e4",
 		"file_description":""
 	},
 
@@ -25,6 +27,7 @@
 		"fully_qualified_name":"English Standard Version",
 		"file_size_kb":1292,
 		"md5":"e8fd8c2227c0a77f1f4ee1be084b39d0",
+		"sha1":"b57263e056b10360702518929aa94ef952e9eb4b",
 		"file_description":""
 	},
 
@@ -34,6 +37,7 @@
 		"fully_qualified_name":"The Message Bible",
 		"file_size_kb":1500,
 		"md5":"2abd69e72771cdfef15b6351d4b00b23",
+		"sha1":"86cfdf7e55c14c9e5b4318b0ea853b67f4f368d8",
 		"file_description":""
 	},
 
@@ -43,6 +47,7 @@
 		"fully_qualified_name":"New International Version",
 		"file_size_kb":1308,
 		"md5":"f6b2010b7cf05acc6a36571f08b6c4ce",
+		"sha1":"3756673bf5eb8bd8a1276d78d03a0140be27ccfb",
 		"file_description":""
 	},
 
@@ -52,6 +57,7 @@
 		"fully_qualified_name":"New King James Version",
 		"file_size_kb":1352,
 		"md5":"628b8699022735fc4f9838421a6e97f8",
+		"sha1":"982056f9fc8df22e6e0336812a0af25d9f134f7f",
 		"file_description":""
 	},
 
@@ -61,6 +67,7 @@
 		"fully_qualified_name":"New Living Translation",
 		"file_size_kb":1388,
 		"md5":"01be3795fea7f2e978aa5c6b38d7d257",
+		"sha1":"6deaa3d9a287f72833edc0fb446e2540d986bc1f",
 		"file_description":""
 	}
 ]
