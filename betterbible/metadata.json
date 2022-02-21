@@ -1,0 +1,60 @@
+{
+
+"files_structure":
+	{
+		"file_name":"",
+		"alt_name":"",
+		"fully_qualified_name":"",
+		"file_size_kb":0,
+		"file_description":""
+	},
+"files":[
+	{
+		"file_name":"AMP.zip",
+		"alt_name":"AMP",
+		"fully_qualified_name":"Amplified Bible",
+		"file_size_kb":1656,
+		"file_description":""
+	},
+
+	{
+		"file_name":"ESV.zip",
+		"alt_name":"ESV",
+		"fully_qualified_name":"English Standard Version",
+		"file_size_kb":1292,
+		"file_description":""
+	},
+
+	{
+		"file_name":"MSG.zip",
+		"alt_name":"MSG",
+		"fully_qualified_name":"The Message Bible",
+		"file_size_kb":1500,
+		"file_description":""
+	},
+
+	{
+		"file_name":"NIV.zip",
+		"alt_name":"NIV",
+		"fully_qualified_name":"New International Version",
+		"file_size_kb":1308,
+		"file_description":""
+	},
+
+	{
+		"file_name":"NKJV.zip",
+		"alt_name":"NKJV",
+		"fully_qualified_name":"New King James Version",
+		"file_size_kb":1352,
+		"file_description":""
+	},
+
+	{
+		"file_name":"NLT.zip",
+		"alt_name":"NLT",
+		"fully_qualified_name":"New Living Translation",
+		"file_size_kb":1388,
+		"file_description":""
+	}
+]
+}
