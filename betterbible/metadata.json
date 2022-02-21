@@ -6,6 +6,7 @@
 		"alt_name":"",
 		"fully_qualified_name":"",
 		"file_size_kb":0,
+		"md5":"",
 		"file_description":""
 	},
 "files":[
@@ -14,6 +15,7 @@
 		"alt_name":"AMP",
 		"fully_qualified_name":"Amplified Bible",
 		"file_size_kb":1656,
+		"md5":"df8e10369b8cbfaeaf6b3ea699009801",
 		"file_description":""
 	},
 
@@ -22,6 +24,7 @@
 		"alt_name":"ESV",
 		"fully_qualified_name":"English Standard Version",
 		"file_size_kb":1292,
+		"md5":"e8fd8c2227c0a77f1f4ee1be084b39d0",
 		"file_description":""
 	},
 
@@ -30,6 +33,7 @@
 		"alt_name":"MSG",
 		"fully_qualified_name":"The Message Bible",
 		"file_size_kb":1500,
+		"md5":"2abd69e72771cdfef15b6351d4b00b23",
 		"file_description":""
 	},
 
@@ -38,6 +42,7 @@
 		"alt_name":"NIV",
 		"fully_qualified_name":"New International Version",
 		"file_size_kb":1308,
+		"md5":"f6b2010b7cf05acc6a36571f08b6c4ce",
 		"file_description":""
 	},
 
@@ -46,6 +51,7 @@
 		"alt_name":"NKJV",
 		"fully_qualified_name":"New King James Version",
 		"file_size_kb":1352,
+		"md5":"628b8699022735fc4f9838421a6e97f8",
 		"file_description":""
 	},
 
@@ -54,6 +60,7 @@
 		"alt_name":"NLT",
 		"fully_qualified_name":"New Living Translation",
 		"file_size_kb":1388,
+		"md5":"01be3795fea7f2e978aa5c6b38d7d257",
 		"file_description":""
 	}
 ]
