@@ -1,11 +1,11 @@
 {
-"update_app_version_code":36,
-"update_app_version_name":"3.3",
+"update_app_version_code":40,
+"update_app_version_name":"3.7",
 "update_type":"Major",
-"update_title":"BetterToday v3.3 is available",
-"update_info":"What is new?\n\n We fixed the bug in version 3.2 that caused the bible to reinstall at each launch.\n\n* What was new in version 3.2?\n\n- User interface and user experience improvements for the Bible.\n\n- New bible version added - Amplified Bible",
+"update_title":"BetterToday v3.7 is available",
+"update_info":"What is new?\n\n1. New custom calendar to summarize goals performance.\n\n2. Improved UX for all data.\n\n3. Redesign of settings UI.\n\n4. Performance improvement.\n\nMinor bug fixes.",
 "update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":36,
+"update_enforcing_minversion":40,
 "update_severity":"Necessary"
 }
