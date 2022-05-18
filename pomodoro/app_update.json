@@ -1,0 +1,11 @@
+{
+"update_app_version_code":2,
+"update_app_version_name":"2.0",
+"update_type":"Major",
+"update_title":"Pomodoro v2.0 is available",
+"update_info":"\nTesting the API.\n This is the first attempt",
+"update_view_type":"alert",
+"update_enforcing":false,
+"update_enforcing_minversion":2,
+"update_severity":"Major"
+}
