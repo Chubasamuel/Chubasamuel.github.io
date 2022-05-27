@@ -1,0 +1,10 @@
+{
+"dev_info_title":"Testing Dev_Update API",
+"dev_info_version":0,
+"dev_start_date":"18-05-2050",
+"dev_end_date":"30-05-2050",
+"dev_remind_freq":4000,	
+"dev_inform_once":true,
+"dev_info":"This is testing the dev_update API. Should remind everyday from 18-05-2022 to 30-05-2022",
+"dev_btn_okay_text":"Superb!"
+}
