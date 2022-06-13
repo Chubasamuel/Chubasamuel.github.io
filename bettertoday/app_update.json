@@ -1,11 +1,11 @@
 {
-"update_app_version_code":40,
-"update_app_version_name":"3.7",
+"update_app_version_code":41,
+"update_app_version_name":"3.8",
 "update_type":"Major",
-"update_title":"BetterToday v3.7 is available",
-"update_info":"What is new?\n\n1. New custom calendar to summarize goals performance.\n\n2. Improved UX for all data.\n\n3. Redesign of settings UI.\n\n4. Performance improvement.\n\nMinor bug fixes.",
+"update_title":"BetterToday v3.8 is available",
+"update_info":"What is new?\n\n1. We fixed known bugs causing crashes in Android 12 devices.\n\n2. UX improvement and other minor bug fixes",
 "update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":40,
+"update_enforcing_minversion":41,
 "update_severity":"Necessary"
 }
