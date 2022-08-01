@@ -1,11 +1,11 @@
 {
-"update_app_version_code":8,
-"update_app_version_name":"1.6",
-"update_type":"Major",
-"update_title":"BetterBible v1.6 is live in the Play Store",
-"update_info":"\nThis is a compulsory update",
-"update_view_type":"alert",
+"update_app_version_code":9,
+"update_app_version_name":"1.7",
+"update_type":"Minor",
+"update_title":"BetterBible v1.7 is available",
+"update_info":"\nMinor bug fixes",
+"update_view_type":"snackbar",
 "update_enforcing":true,
 "update_enforcing_minversion":8,
-"update_severity":"Major"
+"update_severity":"Necessary"
 }
