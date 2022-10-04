@@ -1,11 +1,11 @@
 {
-"update_app_version_code":43,
-"update_app_version_name":"4.1",
-"update_type":"Major",
-"update_title":"BetterToday v4.1 is available",
-"update_info":"What is new?\n\n1. We integrated the DCOR Pomodoro module into BetterToday; so you can now enjoy Pomodoro right from the event_clock UI of your BetterToday app.\n\n2. Minor bug fixes",
+"update_app_version_code":45,
+"update_app_version_name":"4.3",
+"update_type":"Minor",
+"update_title":"BetterToday v4.3 is available",
+"update_info":"What is new?\n\n1. Thanks to user Favour Akhaigba for noticing and requesting this feature through email\n\n2. You can now copy stuff worth noting and perform other actions through the all_data UI.\n\n3. Other UX and UI improvements.\n\n4. Minor bug fixes.",
 "update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":43,
+"update_enforcing_minversion":45,
 "update_severity":"Necessary"
 }
