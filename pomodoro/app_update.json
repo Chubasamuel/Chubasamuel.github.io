@@ -1,11 +1,11 @@
 {
-"update_app_version_code":12,
-"update_app_version_name":"2.0",
+"update_app_version_code":14,
+"update_app_version_name":"2.2",
 "update_type":"Minor",
-"update_title":"Pomodoro v2.0 is available",
-"update_info":"\nUser interface and user experience improvements",
-"update_view_type":"alert",
+"update_title":"Pomodoro v2.2 is available",
+"update_info":"\nUser experience improvements",
+"update_view_type":"snackbar",
 "update_enforcing":false,
-"update_enforcing_minversion":12,
-"update_severity":"Major"
+"update_enforcing_minversion":14,
+"update_severity":"Necessary"
 }
