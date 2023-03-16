@@ -6,6 +6,6 @@
 "update_info":"\nFirst release\nTesting;App update API before public release--check_enforcing",
 "update_view_type":"alert",
 "update_enforcing":true,
-"update_enforcing_minversion":2,
+"update_enforcing_minversion":3,
 "update_severity":"Necessary"
 }
