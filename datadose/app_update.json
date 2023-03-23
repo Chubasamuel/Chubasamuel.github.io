@@ -5,7 +5,7 @@
 "update_title":"Datadose v2.6.4 is available",
 "update_info":"\nFirst release\n",
 "update_view_type":"alert",
-"update_enforcing":true,
+"update_enforcing":false,
 "update_enforcing_minversion":13,
 "update_severity":"Necessary"
 }
