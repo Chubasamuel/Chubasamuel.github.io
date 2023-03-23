@@ -1,11 +1,11 @@
 {
-"update_app_version_code":14,
-"update_app_version_name":"2.6.4-prod-test",
+"update_app_version_code":13,
+"update_app_version_name":"2.6.4",
 "update_type":"Major",
-"update_title":"Datadose v2.6.4-prod-test is available",
-"update_info":"\nFirst release\nTesting;App update API before public release goes wild--check_unenforcing",
+"update_title":"Datadose v2.6.4 is available",
+"update_info":"\nFirst release\n",
 "update_view_type":"alert",
 "update_enforcing":true,
-"update_enforcing_minversion":14,
+"update_enforcing_minversion":13,
 "update_severity":"Necessary"
 }
