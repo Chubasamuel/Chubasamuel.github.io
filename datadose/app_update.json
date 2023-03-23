@@ -5,7 +5,7 @@
 "update_title":"Datadose v2.6.3-prod-test is available",
 "update_info":"\nFirst release\nTesting;App update API before public release goes wild--check_unenforcing",
 "update_view_type":"alert",
-"update_enforcing":false,
-"update_enforcing_minversion":2,
+"update_enforcing":true,
+"update_enforcing_minversion":12,
 "update_severity":"Necessary"
 }
