@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DataDose | Chuba Samuel, DCOR</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../../index.css" />
+</head>
+<body>
+
+<div class="main_div">
+
+<span class="heading_label center-big-heading">Formatting Your Questionnaire</span>
+
+ <i>(We recommend you search and replace all the checkboxes in your questionnaire to <b>@</b> sign with your text editor to make this easy for you. This could take less than 5 minutes for you to do.<br />
+   After importing your questionnaire, go through it to ensure your document was properly formatted before you start filling in the responses. )</i>
+
+<div class="info_section preserve-whitespace">
+<span class="heading_label">File specifications</span>
+
+  Import file must be in <b>.txt</b> format<br /><br />
+  An import file has one or more of these following <b>entity types</b> -<br />
+<ul>
+    <li><b>A</b> - Project Title</li><br />
+    <li><b>B</b> - Section Labels</li><br />
+    <li><b>C</b> - Comments ( e.g instructions)</li><br />
+    <li><b>D</b> - MCQ questions with many options but only one is selectable</li><br />
+    <li><b>E</b> - MCQ questions with many options and many options are selectable</li><br />
+    <li><b>F</b> - MCQ questions with multiple options , with additional space for <b>Others(please specify)</li></b><br />
+    <li><b>G</b> - Likert type questions</li><br />
+    <li><b>H</b> - Free form questions ( a free form question requires a user to write out his response instead of selecting from a list of options )</li>
+</ul>
+</div>
+
+<div class="info_section preserve-whitespace">
+<span class="heading_label">Formatting instructions</span>
+
+<b>Note:</b><br />  
+<i>Except a line is empty, each line is treated as an entity, so make sure you remove line breaks from your questions, and ensure each separate question is on its own line.</i>  <br />
+Your question or any of its options should not contain any of these special characters: <b># @ *</b>
+
+<span class="heading_label_2">Entity type (Check entity type from the list above) <b>Vs</b> how to format:</span>
+<ul>
+<li>A - start the line with <b>###</b></li><br />
+<li>B - start the line with <b>##</b></li><br />
+<li>C - start the line with <b>/*</b> and end the line with <b>*/</b></li><br />
+<li>D - append <b>@*</b> to the first option, and <b>@</b> or <b>@*</b> to all other options. (<i>No need to append anything at the start of the line</i>)</li><br />
+<li>E - append <b>@</b> to the first and all other options</li><br />
+<li>F - Same as E, but make sure the last option is written as <b>Others(please specify)</b></li><br />
+<li>G - start only the first option with <b>**</b> , then separate other options with space</li><br />
+<li>H - No need to specify any format. Any line with no formatting is automatically assigned to this type.</li><br />
+</div>
+
+</div>
+</body>
+</html>
