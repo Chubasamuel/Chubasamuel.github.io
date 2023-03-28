@@ -1,11 +1,11 @@
 {
-"update_app_version_code":13,
-"update_app_version_name":"2.6.4",
+"update_app_version_code":14,
+"update_app_version_name":"2.6.5",
 "update_type":"Major",
-"update_title":"Datadose v2.6.4 is available",
-"update_info":"\nFirst release\n",
+"update_title":"Datadose v2.6.5 is available",
+"update_info":"\nMajor bug fixes\n",
 "update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":13,
+"update_enforcing_minversion":14,
 "update_severity":"Necessary"
 }
