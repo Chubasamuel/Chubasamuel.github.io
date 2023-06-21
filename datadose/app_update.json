@@ -1,11 +1,11 @@
 {
-"update_app_version_code":18,
+"update_app_version_code":19,
 "update_app_version_name":"2.6.9",
 "update_type":"Minor",
-"update_title":"DataDose v2.6.9 is available",
+"update_title":"Testing-DataDose v2.6.9 is available",
 "update_info":"\nUX Improvements\n",
 "update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":18,
+"update_enforcing_minversion":19,
 "update_severity":"Necessary"
 }
