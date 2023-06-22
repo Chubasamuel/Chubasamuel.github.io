@@ -1,8 +1,8 @@
 {
-"update_app_version_code":19,
-"update_app_version_name":"2.6.9",
+"update_app_version_code":100,
+"update_app_version_name":"2.6.100-testing",
 "update_type":"Minor",
-"update_title":"Testing-DataDose v2.6.9 is available",
+"update_title":"Testing-DataDose v2.6.100 is available",
 "update_info":"\nUX Improvements\n",
 "update_view_type":"alert",
 "update_enforcing":false,
