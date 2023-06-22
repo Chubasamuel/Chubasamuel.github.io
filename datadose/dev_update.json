@@ -2,9 +2,9 @@
 "dev_info_title":"Testing Dev_Update API",
 "dev_info_version":8,
 "dev_start_date":"23-03-2023",
-"dev_end_date":"25-07-2023",
+"dev_end_date":"25-03-2023",
 "dev_remind_freq":1,	
 "dev_inform_once":false,
-"dev_info":"This is testing the dev_update API. Should remind everyday from 23-03-2023 to 25-07-2023",
+"dev_info":"This is testing the dev_update API. Should remind everyday from 23-03-2023 to 25-03-2023",
 "dev_btn_okay_text":"Superb!"
 }
