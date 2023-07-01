@@ -1,11 +1,11 @@
 {
-"update_app_version_code":28,
-"update_app_version_name":"2.6.18",
+"update_app_version_code":29,
+"update_app_version_name":"2.6.19",
 "update_type":"Minor",
-"update_title":"DataDose v2.6.18 is available",
-"update_info":"\nUX Improvements\n",
+"update_title":"DataDose v2.6.19 is available",
+"update_info":"\nUX Improvements\nIncludes a major bug fix for exported file not openable in Microsoft Excel app",
 "update_view_type":"alert",
-"update_enforcing":false,
-"update_enforcing_minversion":28,
-"update_severity":"Necessary"
+"update_enforcing":true,
+"update_enforcing_minversion":29,
+"update_severity":"Compulsory"
 }
