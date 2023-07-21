@@ -41,7 +41,7 @@ You'd find the app helpful, whether your work is questionnaire-based or proforma
 <span class="heading_label">USING THE APP</span>
 
 Opening the app shows the list of currently imported projects being worked on; the list may be empty if you have no projects imported yet.<br /><br />
-Swiping a project to the right exports the project detail as a formatted project detail file in <b>.txt</b> format, so you can share it with others, or keep it for later.<br /><br />
+Swiping a project to the right exports the project detail as a formatted project detail file in <b>.txt</b> format as well as a Proforma in Microsoft Excel <b>.xlsx</b> format, so you can share it with others, or keep it for later. Exported files are named as Proforma_ + the same name for the Project (e.g If project name is Survey, outputs will be <b>Proforma_Survey.txt</b> and <b>Proforma_Survey.xlsx</b>)<br /><br />
 Swiping a project to the left attempts deleting it after confirming the action from the user.
 
 </div>
@@ -51,7 +51,8 @@ Swiping a project to the left attempts deleting it after confirming the action f
 There are three approaches to importing a project, and you can choose to use any of them, viz:<br /><br />
 1. Using the <a class="normal_link" href="importer/wysiwyg">WYSIWYG</a>( What you see is what you get )  editor.<br />
 2. Using the <a class="normal_link" href="importer/form">form</a> type of import<br />
-3. Importing a <a class="normal_link" href="importer/formatted_file">formatted questionnaire</a> or project detail
+3. Importing from a <a class="normal_link" href="importer/excel">Microsoft Excel</a> file<br />
+4. Importing a <a class="normal_link" href="importer/formatted_file">formatted questionnaire</a> or project detail
 </div>
 
 <div class="info_section">
@@ -76,6 +77,11 @@ Clicking the Export button on each project exports the actual responses filled f
 A project could be exported in coded or non-coded form.<br /><br />
 Checking or unchecking the checkbox at the top of the home screen specifies whether you want the data exported to be non-coded or coded, respectively.<br />
 Default export mode is non-coded.  <br /><br />
+The Header option specifies what to write on the first cell in each data column.<br />
+<b>Q type</b> -> Each column is labeled as Q1, Q2, Q3, .....Qn<br />
+<b>Full</b> -> The full question is written as the column label.<br />
+<b>Joined</b> -> The full question is concatenated with underscore symbol, then set as the column label<br /><br />
+You can try each of the optiosn to see which best serves your need<br /><br />
 When exporting as coded, the variable and value labels are also automatically written in separate Sheets (called variables_labels and values_labels) in the same Workbook of the Excel file, so you can easily copy them and import to SPSS (If you would be using SPSS for your data analysis) 
 
 </div>
@@ -112,6 +118,21 @@ Press dot (.) on your keyboard to mark the end of the syntax.<br /><br />
 Click the play/run button at the top of the screen.</span>
 </div>
 
+<div class="info_section">
+<span class="heading_label">MERGING EXCEL FILES</span>
+You can merge two or more Microsoft Excel files with the app.<br /><br />
+The values in the first cell of each column of the Excel files are considered as the name for that column.<br /><br />
+The columns are merged based on having the same value in the key column to be specified before the merging begins.<br /><br />
+Rows with no value specified for the key column are ignored and will not appear in the merged Excel file.<br /><br />
+The merging only occurs for the first sheet in each Excel file. Other sheets are ignored.<br /><br />
+Merging also means that columns with same name in more than one Excel file will be merged, with the last merged value appearing as the final value in the merged Excel file.<br /><br />
+To begin merging, first create a new folder and copy all the files to be merged into the folder.<br />
+Open the app and click the Go to Importer button>Tools>Merge<br/>
+Next select the folder containing the Excel files to merge<br />
+Enter the name of the key column<br />
+Click Okay and wait for the process to complete.<br />
+The output/merged file is saved inside the same folder previously selected in a file named <b>merged.xlsx</b>
+</div>
 <div class="download_section">
 <a href="privacy_policy/privacy_policy.txt">
 <button class="download_button">Privacy policy</button></a>                                   </div>

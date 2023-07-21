@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DataDose | Chuba Samuel, DCOR</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../../index.css" />
+</head>
+<body>
+
+<div class="main_div">
+
+<div class="info-section">
+<span class="heading_label center-big-heading">Import from Excel</span>
+Using this import option allows you to import your Proforma or structured questionnaire saved in Microsoft Excel file into the app.<br /><br />
+Each column in the Excel file is treated as an entity.<br /><br />
+The first cell in each Excel column contains the entity label(i.e) What to be displayed on the app screen.<br />
+The second cell contains the entity type, which could be represented with the entity's full name or short alphabet(e.g Project Title or A, MCQ Rigid or D, Likert or G, e.t.c, see other types below). <br /><br />Entities without their type specified are automatically taken as an MCQ or Freeform question, depending on whether the column has options or not.<br />
+The third and all other subsequent cells contain the options for entity types that contain options(e.g MCQ, MCQ rigid, MCQ+Freeform, and Likert) 
+<br /><br />
+Types of entity are:<br />
+
+<ul>
+    <li><b>A</b> - Project Title</li><br />
+    <li><b>B</b> - Section Label</li><br />
+    <li><b>C</b> - Comment ( e.g instructions)</li><br />
+    <li><b>D</b> - MCQ Rigid: Questions with many options but only one is selectable</li><br />
+    <li><b>E</b> - MCQ: Questions with many options and many options are selectable</li><br />
+    <li><b>F</b> - MCQ + Free form: Questions with multiple options , with additional space for <b>Others(please specify)</li></b><br />
+    <li><b>G</b> - Likert</li><br />
+    <li><b>H</b> - Free form ( a free form question requires a user to write out his response instead of selecting from a list of options )</li>
+</ul>
+<br /><br />
+Example Proforma/Excel File structure:
+<br /><br />
+<table>
+	<tr><td>ROI Study</td>
+		<td>id</td>
+		<td>Age</td>
+		<td>Sex</td>
+		<td>Location</td>
+	</tr>
+	<tr><td>Title</td>
+		<td></td>
+		<td>Free form</td>
+		<td>MCQ Rigid</td>
+		<td>MCQ</td>
+	</tr>
+	<tr><td></td><td></td><td></td>
+		<td>Male</td><td>Rural</td>
+	</tr>
+	<tr><td></td><td></td><td></td>
+		<td>Female</td><td>Suburban</td>
+	</tr>
+	<tr><td></td><td></td><td></td><td></td><td>Urban</td></tr>
+	<tr></tr>
+</table>
+<style>
+table, td{
+border:1px solid #558855;
+border-collapse:collapse;
+}
+</style>
+</div>
+
+</div>
+</body>
+
+</html>
