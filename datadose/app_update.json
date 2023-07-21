@@ -1,11 +1,11 @@
 {
-"update_app_version_code":29,
-"update_app_version_name":"2.6.19",
-"update_type":"Minor",
-"update_title":"DataDose v2.6.19 is available",
-"update_info":"\nUX Improvements\nIncludes a major bug fix for exported file not openable in Microsoft Excel app",
+"update_app_version_code":44,
+"update_app_version_name":"2.8.5",
+"update_type":"Major",
+"update_title":"DataDose v2.8.5 is available",
+"update_info":"\nWhat is new?\n\n1. Can now import projects from a Microsoft Excel Proforma\n2. Merge two or more Excel files based on a unique key column\n3. UX Improvements",
 "update_view_type":"alert",
-"update_enforcing":true,
-"update_enforcing_minversion":29,
-"update_severity":"Compulsory"
+"update_enforcing":false,
+"update_enforcing_minversion":44,
+"update_severity":"Necessary"
 }
