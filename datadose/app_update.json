@@ -1,9 +1,9 @@
 {
-"update_app_version_code":44,
-"update_app_version_name":"2.8.5",
+"update_app_version_code":47,
+"update_app_version_name":"2.9.2",
 "update_type":"Major",
-"update_title":"DataDose v2.8.5 is available",
-"update_info":"\nWhat is new?\n\n1. Can now import projects from a Microsoft Excel Proforma\n2. Merge two or more Excel files based on a unique key column\n3. UX Improvements",
+"update_title":"DataDose v2.9.2 is available",
+"update_info":"\nWhat is new?\n\n1. Now supports Media ( Image, Video, File ) question types\n2. Export Project Detail as Microsoft Word file/Questionnaire\n3. UX Improvements",
 "update_view_type":"alert",
 "update_enforcing":false,
 "update_enforcing_minversion":44,
