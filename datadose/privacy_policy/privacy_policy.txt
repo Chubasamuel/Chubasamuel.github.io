@@ -20,3 +20,10 @@ other similar reasons.
 All user saved data are expressly owned by the user.
 
 We reserve no rights of ownership to your saved data.
+
+Camera permission is only for the purpose of 
+image/video (subsequently refered to as media) 
+capture for media question types.
+
+Other terms above applying to saved data also apply 
+to any media captured.
