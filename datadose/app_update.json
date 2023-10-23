@@ -1,9 +1,9 @@
 {
-"update_app_version_code":47,
-"update_app_version_name":"2.9.2",
+"update_app_version_code":55,
+"update_app_version_name":"2.9.9",
 "update_type":"Major",
-"update_title":"DataDose v2.9.2 is available",
-"update_info":"\nWhat is new?\n\n1. Now supports Media ( Image, Video, File ) question types\n2. Export Project Detail as Microsoft Word file/Questionnaire\n3. UX Improvements",
+"update_title":"DataDose v2.9.9 is available",
+"update_info":"\nWhat is new?\n\n1. Minor bug fixes.\n2. Can now hide/show Q label.\n3. Can now reposition checkbox to start/end of options.\n4. UX improvements.",
 "update_view_type":"alert",
 "update_enforcing":false,
 "update_enforcing_minversion":44,
