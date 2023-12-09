@@ -1,0 +1,57 @@
+[
+    {
+        "name":"Heritage Specialist Hospital",
+        "type":"Hospital",
+        "specialty":"Neurology",
+        "lga":"Nnewi",
+        "state":"Anambra",
+        "contact":[],
+        "owner": "Dr Nwani",
+        "about":null,
+        "direction": "Heritage Specialist Hospital, Umuanuka Otolo, Nnewi"
+    },
+    {
+        "name":"ACE Specialist Hospital",
+        "type":"Hospital",
+        "specialty":"General Surgery",
+        "lga":"Onitsha",
+        "state":"Anambra",
+        "contact":[],
+        "owner": "Prof Anyanwu",
+        "about":null,
+        "direction": ""
+    },
+    {
+        "name":"Dinma Specialist Hospital",
+        "type":"Hospital",
+        "specialty":"Burns and Plastic Surgery",
+        "lga":"Nnewi",
+        "state":"Anambra",
+        "contact":[],
+        "owner": "Prof Chukwuanuku",
+        "about":null,
+        "direction": ""
+    },
+    {
+        "name":"Rose of Sharon Specialist Hospital and Maternity",
+        "type":"Hospital",
+        "specialty":"Obstetrics and Gynaecology",
+        "lga":"Nnewi",
+        "state":"Anambra",
+        "contact":[],
+        "owner": "Dr Onwusulu",
+        "about":null,
+        "direction": "181 Old Onitsha road, Uruagu, Nnewi"
+    },
+    {
+        "name":"Obijackson Women & Children’s Hospital ",
+        "type":"Hospital",
+        "specialty":"Obstetrics and Gynaecology, Neonatology",
+        "lga":"Okija",
+        "state":"Anambra",
+        "contact":["07033376716"],
+        "owner": "ObiJackson",
+        "about":null,
+        "direction": "No. 2 Madonna University Road, Okija"
+    }
+]
