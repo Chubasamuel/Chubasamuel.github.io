@@ -19,7 +19,7 @@
         "contact":[],
         "owner": "Prof Anyanwu",
         "about":null,
-        "direction": ""
+        "direction": null
     },
     {
         "name":"Dinma Specialist Hospital",
@@ -30,7 +30,7 @@
         "contact":[],
         "owner": "Prof Chukwuanuku",
         "about":null,
-        "direction": ""
+        "direction": null
     },
     {
         "name":"Rose of Sharon Specialist Hospital and Maternity",
