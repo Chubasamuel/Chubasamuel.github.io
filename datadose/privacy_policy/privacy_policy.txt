@@ -1,6 +1,7 @@
 Saved data in this policy shall refer to 
 the user's saved projects, project names, 
-project details, project filled responses.
+project details, project filled responses, 
+Forms, WYSIWYG.
 
 We do not collect or use your personally 
 identifiable information or saved data in 
