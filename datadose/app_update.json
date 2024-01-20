@@ -1,9 +1,9 @@
 {
-"update_app_version_code":55,
-"update_app_version_name":"2.9.9",
+"update_app_version_code":99,
+"update_app_version_name":"2.49",
 "update_type":"Major",
-"update_title":"DataDose v2.9.9 is available",
-"update_info":"\nWhat is new?\n\n1. Minor bug fixes.\n2. Can now hide/show Q label.\n3. Can now reposition checkbox to start/end of options.\n4. UX improvements.",
+"update_title":"DataDose v2.49 is available",
+"update_info":"\nWhat is new?\n\n1. Response text prediction when filling responses\n2. Can now edit project name\n3. Simplified options adding to Form\n4. Bug fixes.",
 "update_view_type":"alert",
 "update_enforcing":false,
 "update_enforcing_minversion":44,
