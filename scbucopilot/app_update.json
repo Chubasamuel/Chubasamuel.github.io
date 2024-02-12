@@ -1,12 +1,12 @@
 {
-    "update_app_version_code":1,
-    "update_app_version_name":"1.0",
+    "update_app_version_code":2,
+    "update_app_version_name":"2.0",
     "update_type":"Major",
     "update_title":"SCBU Copilot v1.0 is available",
     "update_info":"\nTesting AppUpdate",
     "update_view_type":"Alert",
     "update_enforcing":true,
-    "update_enforcing_minversion":1,
+    "update_enforcing_minversion":2,
     "update_severity":"Compulsory"
     }
     
