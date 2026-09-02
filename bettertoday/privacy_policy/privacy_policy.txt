@@ -1,5 +1,10 @@
+PRIVACY POLICY for BetterToday
+
 Saved data in this policy shall refer to 
-the user saved daily, weekly, or monthly goals.
+the user saved daily, weekly, or monthly goals, 
+Pomodoro data, Event clock data,
+BTCadence data, Question Bank data, Bible data, 
+and other user-generated contents.
 
 We do not collect or use your personally 
 identifiable information or saved data in 

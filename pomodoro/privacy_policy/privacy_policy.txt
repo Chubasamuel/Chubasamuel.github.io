@@ -1,5 +1,8 @@
+PRIVACY POLICY for Pomodoro
+
 Saved data in this policy shall refer to 
-the user's saved previous tasks.
+the user's saved previous tasks,
+task templates, and other user-generated data
 
 We do not collect or use your personally 
 identifiable information or saved data in 

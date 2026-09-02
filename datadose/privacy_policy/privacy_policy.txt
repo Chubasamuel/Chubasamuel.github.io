@@ -1,7 +1,9 @@
+PRIVACY POLICY for DataDose
+
 Saved data in this policy shall refer to 
 the user's saved projects, project names, 
 project details, project filled responses, 
-Forms, WYSIWYG.
+Forms, WYSIWYG, and drafts.
 
 We do not collect or use your personally 
 identifiable information or saved data in 
@@ -23,7 +25,7 @@ All user saved data are expressly owned by the user.
 We reserve no rights of ownership to your saved data.
 
 Camera permission is only for the purpose of 
-image/video (subsequently refered to as media) 
+image/video (subsequently referred to as media) 
 capture for media question types.
 
 Other terms above applying to saved data also apply 

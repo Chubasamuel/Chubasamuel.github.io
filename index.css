@@ -151,6 +151,22 @@ border-radius:30px;
 	margin:66px;
 }
 
+.download_section{
+text-align:center;
+margin-top:30px;
+}
+.download_button{
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+font-size:2rem;
+border:none;
+border-radius:25px;
+background-color:#fe24ff;
+color:white;
+}
+
 
 
 
