@@ -1,11 +1,11 @@
 { 
-"update_app_version_code":65,
-"update_app_version_name":"5.1.1",
+"update_app_version_code":67,
+"update_app_version_name":"5.1.3",
 "update_type":"Major",
 "update_title":"We have redesigned BetterToday",
 "update_info":"We have redesigned BetterToday to make it more useful and bring you smoother experience.\n\n What is new?\n- Complete UI and UX redesign.\n- BTCadence - A Anki-like feature for spaced repetition learning and recalls.\n- Question Bank.\n- Study Tracker.\n- App usage, devotion and reading streaks and badges.\n- In-app notifications.\n- and more..",
 "update_view_type":"alert",
 "update_enforcing":false,
-"update_enforcing_minversion":65,
+"update_enforcing_minversion":67,
 "update_severity":"Necessary"
 }
